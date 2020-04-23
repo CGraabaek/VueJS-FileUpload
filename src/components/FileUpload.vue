@@ -5,10 +5,7 @@
     @dragover.prevent
     class="file-upload"
     id="file-upload"
-    role="dialog"
-    aria-describedby="pico-1"
-    style="display: block; position: fixed; z-index: 10001; left: 50%; top: 38.1966%; max-height: 90%; box-sizing: border-box; width: auto; transform: translate(-50%, -38.1966%); overflow: auto; background-color: white; padding: 20px; border-radius: 5px;"
-  >
+    role="dialog">
     <h1>FileUpload</h1>
     <h4>Drag and drop one or more files here</h4>
     <ul>
@@ -87,5 +84,18 @@ a {
 
 .file-upload {
   background-color: #42b983 !important;
+  display: block;
+  position: fixed;
+  z-index: 10001;
+  left: 50%;
+  top: 38.1966%;
+  max-height: 90%;
+  box-sizing: border-box;
+  width: auto;
+  transform: translate(-50%, -38.1966%);
+  overflow: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
 }
 </style>
